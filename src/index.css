@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: #f0f2f5;
+  /* 移动端：去掉点击时的蓝色高亮 */
+  -webkit-tap-highlight-color: transparent;
+}
+
+main {
+  text-align: center;
+  width: 100%;
+  max-width: 480px; /* 手机屏幕宽度上限 */
+  padding: 1rem;
+}
+
+h1 {
+  color: #1677ff;
+  font-size: 2rem;
+}
+
+p {
+  margin-top: 0.5rem;
+  color: #555;
+  font-size: 0.95rem;
+}
